@@ -40,13 +40,11 @@ header p {
     opacity: 0.85;
 }
 
-/* Tipografía secundaria para títulos */
 header h1, .description h2, .episode h2 {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
     letter-spacing: 1.5px;
 }
 
-/* Mejor contraste y jerarquía en subtítulos y párrafos */
 .description h2, .episode h2 {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
     letter-spacing: 1.5px;
@@ -55,6 +53,7 @@ header h1, .description h2, .episode h2 {
 .description p, .episode p {
     font-size: 1.08em;
     line-height: 1.7;
+    text-align: justify;
 }
 
 .container {
@@ -65,7 +64,7 @@ header h1, .description h2, .episode h2 {
 
 .cover img {
     width: 100%;
-    max-width: 340px; /* Nuevo: limita el ancho máximo */
+    max-width: 340px;
     display: block;
     margin: 0 auto;
     border-radius: 18px;
@@ -133,7 +132,6 @@ header h1, .description h2, .episode h2 {
     line-height: 1.7;
 }
 
-/* Hover en bloques */
 .description:hover, .episode:hover {
     box-shadow: 0 4px 24px rgba(30,198,230,0.18);
     transform: translateY(-2px) scale(1.01);
@@ -159,7 +157,6 @@ footer {
     border-top: 2px solid var(--main-blue);
 }
 
-/* Footer social icons */
 .footer-social {
     margin-top: 10px;
 }
@@ -175,7 +172,6 @@ footer {
     transform: scale(1.2);
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .container, .description, .episode {
         padding: 12px;
